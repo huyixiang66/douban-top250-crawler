@@ -1,2 +1,36 @@
-# douban-top250-crawler
-A Python crawler for Douban Movie Top250
+# Douban Top250 Movie Crawler 🎬
+
+一个使用 Python 编写的简单爬虫项目，用于爬取豆瓣电影 Top250 榜单信息，并保存为 CSV 文件。
+
+## 📌 功能
+
+- 爬取豆瓣电影 Top250
+- 提取电影名称、评分、评价人数、上映年份
+- 自动分页抓取
+- 数据保存为 CSV，方便后续分析
+
+## 🛠 技术栈
+
+- Python 3
+- requests
+- beautifulsoup4
+
+## 📂 项目结构
+douban-top250-crawler/
+├── src/
+│ ├── main.py # 程序入口
+│ ├── crawler.py # 网络请求
+│ ├── parser.py # HTML 解析
+│ └── storage.py # 数据存储
+├── data/
+│ └── douban_top250.csv
+├── requirements.txt
+└── README.md
+
+## ▶️ 使用方法
+
+```bash
+pip install -r requirements.txt
+python src/main.py
+
+- 仅用于学习交流，请勿用于商业用途
