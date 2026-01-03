@@ -16,16 +16,16 @@
 - beautifulsoup4
 
 ## 📂 项目结构
-douban-top250-crawler/
-├── src/
-│ ├── main.py # 程序入口
-│ ├── crawler.py # 网络请求
-│ ├── parser.py # HTML 解析
-│ └── storage.py # 数据存储
-├── data/
-│ └── douban_top250.csv
-├── requirements.txt
-└── README.md
+- douban-top250-crawler/
+- ├── src/
+- │ ├── main.py # 程序入口
+- │ ├── crawler.py # 网络请求
+- │ ├── parser.py # HTML 解析
+- │ └── storage.py # 数据存储
+- ├── data/
+- │ └── douban_top250.csv
+- ├── requirements.txt
+- └── README.md
 
 ## ▶️ 使用方法
 
